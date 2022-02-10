@@ -16,3 +16,9 @@ document.getElementById('login-btn').addEventListener('click', function() {
         alert('Please enter valid email or password')
     }
 })
+
+
+// handle deposit
+document.getElementById('deposit-btn').addEventListener('click', function() {
+    console.log('Deposit')
+})
